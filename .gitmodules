@@ -1,0 +1,9 @@
+[submodule "Assets/_Imported/Plugins/EventObjects"]
+	path = Assets/_Imported/Plugins/EventObjects
+	url = git@github.com:ReachBeyond/EventObjects.git
+[submodule "Assets/_Imported/Plugins/VariableObjects"]
+	path = Assets/_Imported/Plugins/VariableObjects
+	url = git@github.com:ReachBeyond/VariableObjects.git
+[submodule "Assets/_Imported/Plugins/ScriptSupport"]
+	path = Assets/_Imported/Plugins/ScriptSupport
+	url = git@github.com:ReachBeyond/ScriptSupport.git
