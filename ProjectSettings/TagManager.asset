@@ -13,9 +13,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Player
+  - PlayerTrigger
+  - MouseTrigger
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Selection
+    uniqueID: 1902116709
+    locked: 0
+  - name: UI
+    uniqueID: 3081384573
     locked: 0
