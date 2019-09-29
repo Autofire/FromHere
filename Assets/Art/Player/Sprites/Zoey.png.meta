@@ -35,6 +35,12 @@ TextureImporter:
   - first:
       213: 1962208803951360280
     second: Zoey 10
+  - first:
+      213: -5844056719027949300
+    second: Zoey 11
+  - first:
+      213: -5629652626297248260
+    second: Zoey 12
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -369,6 +375,48 @@ TextureImporter:
       bones: []
       spriteID: 
       internalID: 1962208803951360280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zoey 11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -5844056719027949300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zoey 12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -5629652626297248260
       vertices: []
       indices: 
       edges: []
