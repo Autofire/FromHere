@@ -25,6 +25,7 @@ namespace ReachBeyond.Graphics {
 
 		private IEnumerator Fade() {
 			Color targetColor = target.Colors[blendIntoIndex];
+			float yieldDuration = fadeDuration / target.Colors.Length;
 
 			for(int i = 0; i < target.Colors.Length; i++) {
 				if(source != null) {
@@ -33,7 +34,11 @@ namespace ReachBeyond.Graphics {
 				else {
 					target.Colors[i] = targetColor;
 				}
-				yield return new WaitForSecondsRealtime(fadeDuration / target.Colors.Length);
+
+
+				if(!Mathf.Approximately(yieldDuration, 0f)) {
+					yield return new WaitForSecondsRealtime(yieldDuration);
+				}
 			}
 
 
